@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 section{
@@ -43,6 +44,7 @@ nav {
 nav a {
   color: rgb(252, 245, 245);
   text-decoration: none;
+  font-size: 18px;
 }
 
 h2 {
@@ -78,6 +80,8 @@ nav ul {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 list-style: none;
+padding: 0;
+margin: 0;
 }
 
 p{
