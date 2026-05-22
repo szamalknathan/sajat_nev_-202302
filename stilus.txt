@@ -1,0 +1,45 @@
+Alakítsd ki az oldalszerkezetet a mintának megfelelően!
+A képeket a mintának megfelelően helyezd el!
+A bodyban    állítsd be a hátteret a mintának megfelelően.
+
+Az oldal minden elemére állítsd be a paddingot 0-ra
+és állítsd be, hogy az elemek szélességébe a padding és a border is beleszámítson!
+
+Az oldal szélessége 80% legyen, de ne legyen szélesebb, mint 852 px, az oldal közepén legyen elhelyezve!
+
+a bekezdések háttérszíne: rgba(189,183,120,0.5);
+A szöveg színe: #5a4535;
+Sorkizárt igazítás
+Betűcsalád 'Calibri', Garamond, 'Comic Sans MS';
+betűméret 12px
+
+
+A fejléc magassága 112px, 
+a belső margója 3px; 
+
+
+/*Navigáció*/
+Alakítsd ki a menüt a mintának megfelelően!
+A nav háttere a 'bg-nav.png';
+a felső margó 3px. 
+background-size: cover;      
+Az ul tag paddingja és margója 0px. 
+A navigáció li tagjainek betűcsaládja 'Margarine',cursive;        
+Csupa nagybetűs, 
+A betűméret 18px;
+A li tagek magassága  45px;
+
+Ha a menüpontok fölé viszem az egeret, változzon meg a betűk színe!
+
+
+/*Főoldal article elem*/
+
+article szegélyszín:  #999658; 
+5 px paddingja van.   
+    
+A címek alá és felé készíts pontozott szegélyt! Szegély színe: #5a4535
+A szöveget alakítsd nagybetűssé.
+betűcsaládja 'Margarine',cursive;   
+színe  darkcyan;
+vastag betűs
+háttérszín: rgba(190,165,50,0.5)

@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+
+ 
+main{
+    width: 80%;
+    max-width: 852px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "n n"
+    "h h"
+    "a a";
+
+}
+
+body {
+  color: #5a4535;
+  background-color: rgb(212, 231, 105);
+}
+
+h1 {
+  color: rgb(7, 124, 192);
+  border-bottom: 2px solid rgb(189, 182, 182);
+}
+
+nav {
+  background-image: url(kepek/bg-nav.png);
+  background-size: cover;
+  grid-area: n;
+}
+
+nav a {
+  color: rgb(252, 245, 245);
+  text-decoration: none;
+}
+
+h2 {
+  color: rgb(7, 124, 192);
+  background-color: rgba(196, 171, 61, 0.5);
+  border: 1px solid brown;
+}
+
+.szoveg {
+  background-color:  rgba(189,183,120,0.5);
+  color: #5a4535;
+  font-family: 'Calibri', Garamond, 'Comic Sans MS';
+  grid-area: s;
+}
+
+header {
+  border: 1px solid white;
+  grid: h;
+}
+
+article {
+  border: 1px solid #999658;
+  padding: 5px;
+  grid-area: a;
+}
+
+.kep {
+  background-color: rgba(250, 211, 185, 0.849);
+  grid-area: k;
+}
+
+nav ul {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+list-style: none;
+}
+
+p{
+    color: #5a4535; 
+    font-family: 'Calibri', Garamond, 'Comic Sans MS';
+    font-size: 12px;
+}
+
+.felso{
+    grid-area: f;
+}
